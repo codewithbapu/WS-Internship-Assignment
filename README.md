@@ -1,4 +1,4 @@
-# WS Internship
+# Wisdom Sprouts Internship
 
 Welcome to my WS Internship repository!
 
@@ -10,10 +10,6 @@ This repository contains the assignments and tasks completed during my internshi
 - CSS
 - JavaScript
 
-## Assignments
-- Assignment 1
-- Assignment 2
-- Assignment 3
 
 ## Author
 Bapu Wakchaure
