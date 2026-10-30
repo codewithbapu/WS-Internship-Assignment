@@ -6,9 +6,21 @@ Welcome to my WS Internship repository!
 This repository contains the assignments and tasks completed during my internship.
 
 ## Technologies Used
+* Frontend 
 - HTML
 - CSS
+- Bootstrap
 - JavaScript
+- Reactjs
+
+* Backend
+- Java
+- Nodejs
+- Expressjs
+- Mysql
+- Mongodb
+- Postman
+- Git and Github
 
 
 ## Author
