@@ -1,0 +1,211 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #192c4d;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 7%;
+}
+
+.logo span {
+    color: #d31336;
+}
+
+.nav-links {
+    display: flex;
+    gap: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.login-btn, .book-btn, .booking-bottom button {
+    background: #d31336;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+}
+
+.hero {
+    height: 400px;
+    background: linear-gradient(90deg, #12345a99, transparent),
+    url("https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=1600&q=80") center/cover;
+    color: white;
+    padding: 60px 7%;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.book-btn {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.booking {
+    margin: -70px 7% 30px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px #0002;
+}
+
+.trip-options {
+    display: flex;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+.flight-form {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+}
+
+.field label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.field input, .field select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.booking-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.booking-bottom button {
+    border: none;
+    cursor: pointer;
+}
+
+.features {
+    padding: 35px 7%;
+}
+
+.features h2 {
+    margin: 15px 0 25px;
+}
+
+.feature-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.feature h3 {
+    color: #07529a;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #66758e;
+    line-height: 1.6;
+}
+
+footer {
+    background: #192945;
+    color: white;
+    padding: 25px 7%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-links, .social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.copyright {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #555;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .nav-links {
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 35px;
+    }
+
+    .flight-form {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .feature-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .booking-bottom {
+        flex-direction: column;
+        gap: 15px;
+        align-items: stretch;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-links {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .booking {
+        margin-left: 4%;
+        margin-right: 4%;
+        padding: 15px;
+    }
+
+    .hero {
+        padding: 45px 5%;
+    }
+
+    .flight-form {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
