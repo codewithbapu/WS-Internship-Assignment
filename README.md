@@ -23,5 +23,5 @@ This repository contains the assignments and tasks completed during my internshi
 - Git and Github
 
 
-## Author
+## Author-Devloper
 Bapu Wakchaure
