@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 30px;
+}
+
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 25px;
+    box-sizing: border-box;
+    background: linear-gradient(to bottom right, #e6a9f5, #c9dafa, #8cf5f5);
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: normal;
+    color: #686b91;
+    margin-top: 5px;
+    margin-bottom: 22px;
+}
+
+form label {
+    display: block;
+    font-size: 14px;
+    color: #73738b;
+    margin-bottom: 8px;
+}
+
+span {
+    color: #e34c69;
+}
+
+form > input {
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+}
+
+.row {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.row input {
+    width: 50%;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+input::placeholder {
+    color: #aaa;
+}
+
+.verification {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.verification p {
+    font-size: 14px;
+    color: #73738b;
+}
+
+.check {
+    display: inline-flex !important;
+    align-items: center;
+    gap: 8px;
+    padding: 12px;
+    background-color: white;
+    border: 1px solid #ddd;
+    color: #333 !important;
+}
+
+.check input {
+    width: 18px;
+    height: 18px;
+}
+
+button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 12px 25px;
+    color: white;
+    background-color: #1554c5;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .row {
+        gap: 8px;
+    }
+}

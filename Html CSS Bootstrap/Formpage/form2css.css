@@ -1,0 +1,219 @@
+
+body {
+    margin: 5px 24px;
+    font-family: Arial, sans-serif;
+}
+
+.instagram {
+    display: flex;
+    height: 385px;
+    background-color: #10171b;
+    color: white;
+}
+
+.left {
+    width: 50%;
+    background-color: #0b1013;
+    text-align: center;
+    border-right: 1px solid gray;
+    position: relative;
+}
+
+.logo {
+    font-size: 55px;
+    color: #ed2990;
+    text-align: left;
+    padding-left: 22px;
+    padding-top: 20px;
+}
+
+.left h2 {
+    font-size: 20px;
+    font-weight: normal;
+    margin: 8px;
+}
+
+.left span {
+    color: #ff1684;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    margin-top: 28px;
+}
+
+.photo {
+    width: 65px;
+    height: 130px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    border: 2px solid white;
+}
+
+.p1 {
+    background-color: #bd8b5b;
+    transform: rotate(-10deg);
+}
+
+.p2 {
+    background-color: #176d88;
+    transform: rotate(8deg);
+}
+
+.p3 {
+    background-color: #c4a36b;
+    transform: rotate(-3deg);
+}
+
+.left small {
+    position: absolute;
+    bottom: 12px;
+    right: 20px;
+}
+
+.right {
+    width: 50%;
+    padding: 60px 25px 0;
+    box-sizing: border-box;
+    font-size: 12px;
+}
+
+.right input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    background-color: #172128;
+    border: 1px solid #45545e;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+}
+
+button {
+    cursor: pointer;
+}
+
+.login {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #17477e;
+    color: white;
+    margin-top: 8px;
+}
+
+.forgot {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+.facebook, .create {
+    width: 100%;
+    padding: 9px;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #40515c;
+    margin-bottom: 8px;
+}
+
+.create {
+    color: #36a2ff;
+    border-color: #2584e9;
+}
+
+.registration {
+    margin-top: 8px;
+    background-color: #4169f5;
+    padding: 32px 20px;
+}
+
+.form-box {
+    max-width: 430px;
+    margin: auto;
+    background-color: white;
+    padding: 16px 18px 12px;
+    border-radius: 4px;
+}
+
+.form-box h3 {
+    font-size: 14px;
+    margin: 0 0 18px;
+    color: #333;
+    text-decoration: underline;
+}
+
+.form-box h4 {
+    font-size: 11px;
+    color: gray;
+    margin: 16px 0 12px;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.form-grid label {
+    display: block;
+    font-size: 9px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+.form-grid input {
+    width: 100%;
+    height: 23px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 9px;
+}
+
+.next {
+    width: 128px;
+    margin-top: 17px;
+    padding: 7px;
+    color: white;
+    background-color: #4169f5;
+    border: none;
+    border-radius: 3px;
+}
+
+@media (max-width: 600px) {
+    body {
+        margin: 5px;
+    }
+
+    .instagram {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+        box-sizing: border-box;
+        min-height: 300px;
+    }
+
+    .right {
+        padding: 25px;
+    }
+
+    .form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .registration {
+        padding: 20px 10px;
+    }
+}
