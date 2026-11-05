@@ -3,9 +3,333 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="indexcss.css">
 </head>
 <body>
-    
+<header>
+    <div class="logo">🌐 Logo</div>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="#properties">Explore</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+
+    <button>Request a call</button>
+</header>
+
+<section class="hero">
+
+    <div class="hero-text">
+        <h1>YOUR DREAM HOME</h1>
+        <p>IS ONE CLICK AWAY</p>
+    </div>
+
+    <div class="search-area">
+
+        <div class="tabs">
+            <button>FOR RENT</button>
+            <button>FOR SALE</button>
+        </div>
+
+        <div class="search-box">
+
+            <div>
+                <label>LOCATION</label>
+                <input type="text" placeholder="Property Type">
+            </div>
+
+            <div>
+                <label>LOCATION</label>
+                <input type="text" placeholder="All Cities">
+            </div>
+
+            <div>
+                <label>BEDROOMS</label>
+                <select>
+                    <option>Bedrooms</option>
+                    <option>1 Bedroom</option>
+                    <option>2 Bedrooms</option>
+                    <option>3 Bedrooms</option>
+                </select>
+            </div>
+
+            <div>
+                <label>PRICE</label>
+                <select>
+                    <option>Max Price</option>
+                    <option>50 Lakh</option>
+                    <option>1 Crore</option>
+                </select>
+            </div>
+
+            <button>Search</button>
+
+        </div>
+    </div>
+
+</section>
+
+<section class="properties" id="properties">
+
+    <h2>Explore Our Properties</h2>
+    <p class="subtitle">
+        Enjoy the variety of 100+ different properties in the market!
+    </p>
+
+    <div class="property-grid">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500">
+            <span class="sale">FOR SALE</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 7409 Knollwood Cove, Austin, TX</p>
+            <h4>₹85,00,000</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500">
+            <span class="sale">FOR RENT</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 Austin, Texas</p>
+            <h4>₹45,000 / Month</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=500">
+            <span class="sale">FOR SALE</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 Knollwood Cove, Austin</p>
+            <h4>₹95,00,000</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=500">
+            <span class="sale">FOR SALE</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 Austin, Texas</p>
+            <h4>₹75,00,000</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=500">
+            <span class="sale">FOR SALE</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 Knollwood Cove, Austin</p>
+            <h4>₹90,00,000</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?w=500">
+            <span class="sale">FOR RENT</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 Austin, Texas</p>
+            <h4>₹35,000 / Month</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500">
+            <span class="sale">FOR SALE</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 Austin, Texas</p>
+            <h4>₹80,00,000</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500">
+            <span class="sale">FOR SALE</span>
+            <h3>Light And Modern House</h3>
+            <p>📍 Austin, Texas</p>
+            <h4>₹1,00,00,000</h4>
+            <a href="property.html">View Details</a>
+        </div>
+
+    </div>
+
+    <div class="center">
+        <button class="load-btn">Load More</button>
+    </div>
+
+</section>
+<section class="about section" id="about">
+
+    <div class="about-img">
+        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700">
+    </div>
+
+    <div class="about-content">
+        <h2>Wide Selection Of Properties</h2>
+
+        <p>
+            Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. Lorem Ipsum has been
+            the industry's standard dummy text ever since.
+        </p>
+
+        <p>
+            We provide the best properties for our customers.
+            Find your dream home with our trusted services.
+        </p>
+
+        <button>Read More</button>
+    </div>
+
+</section>
+
+<section class="wide-section">
+
+    <div class="wide-image">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=700">
+    </div>
+
+    <div class="wide-content">
+        <h2>Wide Selection Of Properties</h2>
+
+        <p>
+            Lorem Ipsum is simply dummy text of the printing
+            and typesetting industry. We provide different
+            properties according to your needs.
+        </p>
+
+        <button>Read More</button>
+    </div>
+
+</section>
+
+<section class="why-section">
+
+    <div class="why-left">
+        <h2>Why Our Service Is The Perfect Choice?</h2>
+        <p>01. Lorem Ipsum</p>
+        <p>02. Lorem Ipsum</p>
+        <p>03. Lorem Ipsum</p>
+    </div>
+
+    <div class="why-form">
+        <h3>Real Estate Inquiry Form</h3>
+
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Phone">
+        <input type="text" placeholder="Property Type">
+
+        <button>Submit</button>
+    </div>
+
+</section>
+
+<section class="featured-section">
+
+    <h2>Featured Listings</h2>
+    <p class="subtitle">Discover our most popular properties.</p>
+
+    <div class="featured-grid">
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=500">
+            <h3>Light And Modern House</h3>
+            <p>Austin, Texas</p>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=500">
+            <h3>Light And Modern House</h3>
+            <p>Austin, Texas</p>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=500">
+            <h3>Light And Modern House</h3>
+            <p>Austin, Texas</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="testimonials">
+
+    <h2>Testimonials</h2>
+    <p>What Our Clients Say About Us</p>
+
+    <div class="testimonial-grid">
+
+        <div>
+            <img src="https://i.pravatar.cc/100?img=12">
+            <h3>David Brown</h3>
+            <p>Real Estate Buyer</p>
+            <p>"Very professional service and great property selection."</p>
+        </div>
+
+        <div>
+            <img src="https://i.pravatar.cc/100?img=47">
+            <h3>Stephanie Miller</h3>
+            <p>Happy Customer</p>
+            <p>"Very good service. They helped me find my dream home."</p>
+        </div>
+
+        <div>
+            <img src="https://i.pravatar.cc/100?img=32">
+            <h3>Alex Johnson</h3>
+            <p>Property Owner</p>
+            <p>"Excellent service and good customer support."</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="newsletter">
+
+    <h3>Newsletter Signup</h3>
+
+    <div>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </div>
+
+</section>
+<footer id="contact">
+
+    <h2>🌐 Logo</h2>
+
+    <p>Your trusted real estate partner.</p>
+
+    <div class="footer-links">
+        <div>
+            <h3>Explore</h3>
+            <p>Home</p>
+            <p>Properties</p>
+            <p>About Us</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <p>Contact</p>
+            <p>Services</p>
+            <p>Privacy Policy</p>
+        </div>
+
+        <div>
+            <h3>Contact Us</h3>
+            <p>Email: info@realestate.com</p>
+            <p>Phone: +91 9876543210</p>
+        </div>
+    </div>
+
+    <p class="copyright">© 2026 Real Estate. All Rights Reserved.</p>
+
+</footer>
+
 </body>
 </html>
